@@ -5,10 +5,9 @@ echo "----- Remove build folder -----"
 
 echo "----- Sudoku -----"
 echo "----- Sudoku Groth16 -----"
-./scripts/executeGroth16.sh
+./scripts/executeGroth16.sh sudoku 13
 echo "----- Sudoku Plonk -----"
-./scripts/executePlonk.sh
+./scripts/executePlonk.sh sudoku 15
 echo "----- Sudoku Fflonk -----"
-./scripts/executeFflonk.sh
-
+./scripts/executeFflonk.sh sudoku 18
 
