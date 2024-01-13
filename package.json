@@ -6,13 +6,13 @@
         "lint": "eslint \"**/*.{js,ts}\"",
         "prettier": "prettier -c .",
         "prettier:write": "prettier -w .",
-        "compile": "./scripts/compile.sh",
-        "generate:witness": "./scripts/generateWitness.sh",
-        "execute": "./scripts/execute.sh",
-        "run:groth16": "./scripts/executeGroth16.sh",
-        "run:plonk": "./scripts/executePlonk.sh",
-        "run:fflonk": "./scripts/executeFflonk.sh",
-        "remove:build": "./scripts/removeBuildFolder.sh"
+        "compile": "chmod u+x ./scripts/compile.sh && ./scripts/compile.sh",
+        "generate:witness": "chmod u+x ./scripts/generateWitness.sh && ./scripts/generateWitness.sh",
+        "execute": "chmod u+x ./scripts/execute.sh && ./scripts/execute.sh",
+        "run:groth16": "chmod u+x ./scripts/executeGroth16.sh && ./scripts/executeGroth16.sh",
+        "run:plonk": "chmod u+x ./scripts/executePlonk.sh && ./scripts/executePlonk.sh",
+        "run:fflonk": "chmod u+x ./scripts/executeFflonk.sh && ./scripts/executeFflonk.sh",
+        "remove:build": "chmod u+x ./scripts/removeBuildFolder.sh && ./scripts/removeBuildFolder.sh"
     },
     "devDependencies": {
         "@types/chai": "^4.3.11",
