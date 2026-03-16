@@ -26,4 +26,4 @@ rm -r -f ${BUILD_DIR}
 mkdir -p ${BUILD_DIR}
 
 # Compile the circuit
-circom ${PATH_CIRCUIT}/${CIRCUIT}.circom --r1cs --wasm --sym --c -o ${BUILD_DIR}
+circom ${PATH_CIRCUIT}/${CIRCUIT}.circom --r1cs --wasm --sym --c --O2 -o ${BUILD_DIR}
