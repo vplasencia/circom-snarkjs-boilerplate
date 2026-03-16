@@ -7,12 +7,12 @@
         "prettier": "prettier -c .",
         "prettier:write": "prettier -w .",
         "compile": "chmod u+x ./scripts/compile.sh && ./scripts/compile.sh",
-        "generate:witness": "chmod u+x ./scripts/generateWitness.sh && ./scripts/generateWitness.sh",
+        "generate:witness": "chmod u+x ./scripts/generate-witness.sh && ./scripts/generate-witness.sh",
         "execute": "chmod u+x ./scripts/execute.sh && ./scripts/execute.sh",
-        "run:groth16": "chmod u+x ./scripts/executeGroth16.sh && ./scripts/executeGroth16.sh",
-        "run:plonk": "chmod u+x ./scripts/executePlonk.sh && ./scripts/executePlonk.sh",
-        "run:fflonk": "chmod u+x ./scripts/executeFflonk.sh && ./scripts/executeFflonk.sh",
-        "remove:build": "chmod u+x ./scripts/removeBuildFolder.sh && ./scripts/removeBuildFolder.sh"
+        "run:groth16": "chmod u+x ./scripts/execute-groth16.sh && ./scripts/execute-groth16.sh",
+        "run:plonk": "chmod u+x ./scripts/execute-plonk.sh && ./scripts/execute-plonk.sh",
+        "run:fflonk": "chmod u+x ./scripts/execute-fflonk.sh && ./scripts/execute-fflonk.sh",
+        "remove:build": "chmod u+x ./scripts/remove-build-folder.sh && ./scripts/remove-build-folder.sh"
     },
     "devDependencies": {
         "@types/chai": "^4.3.11",

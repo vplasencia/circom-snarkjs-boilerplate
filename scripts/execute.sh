@@ -1,13 +1,13 @@
 #!/bin/bash
 
 echo "----- Remove build folder -----"
-./scripts/removeBuildFolder.sh
+./scripts/remove-build-folder.sh
 
 echo "----- Sudoku -----"
 echo "----- Sudoku Groth16 -----"
-./scripts/executeGroth16.sh sudoku 13
+./scripts/execute-groth16.sh sudoku 13
 echo "----- Sudoku Plonk -----"
-./scripts/executePlonk.sh sudoku 15
+./scripts/execute-plonk.sh sudoku 15
 echo "----- Sudoku Fflonk -----"
-./scripts/executeFflonk.sh sudoku 18
+./scripts/execute-fflonk.sh sudoku 18
 
